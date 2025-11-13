@@ -1,12 +1,16 @@
 <div align="center">
 
-# 🚀 Awesome Claude Plugin Marketplace
+# 🚀 Claude Plugin Ecosystem Hub
+### *The Definitive Index of Claude AI Extensions*
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2025--11-blue.svg)](https://github.com)
-[![Claude Code](https://img.shields.io/badge/Claude-Code-blueviolet.svg)](https://www.anthropic.com/news/claude-code-plugins)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=500%2B+Claude+Plugins%2C+MCPs%2C+Skills;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
+
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![Stars](https://img.shields.io/github/stars/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=yellow)](https://github.com/umitkacar/claude-plugin-ecosystem-hub/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+[![Last Commit](https://img.shields.io/github/last-commit/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github)](https://github.com/umitkacar/claude-plugin-ecosystem-hub/commits)
+[![Claude Code](https://img.shields.io/badge/Claude-Code-blueviolet.svg?style=for-the-badge&logo=anthropic)](https://www.anthropic.com/news/claude-code-plugins)
 
 **A comprehensive, curated directory of Claude AI plugins, skills, MCP servers, commands, agents, and marketplaces.**
 
