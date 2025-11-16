@@ -3,7 +3,7 @@
 # 🚀 Claude Plugin Ecosystem Hub
 ### *The Definitive Index of Claude AI Extensions*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=400%2B+Claude+Plugins%2C+MCPs%2C+Skills;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=425%2B+Claude+Plugins%2C+MCPs%2C+Skills;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=yellow)](https://github.com/umitkacar/claude-plugin-ecosystem-hub/stargazers)
@@ -47,7 +47,7 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### Why This List?
 
-- ✅ **Comprehensive**: 400+ curated resources across all categories
+- ✅ **Comprehensive**: 425+ curated resources across all categories
 - 🎯 **Curated**: Only quality, actively maintained projects
 - 📊 **Categorized**: Easy navigation by use case
 - 🔄 **Updated**: Regular maintenance and community contributions
@@ -66,8 +66,8 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 📅 Metadata
 
-- **Last Updated:** November 2024
-- **Total Resources:** 400+ verified entries
+- **Last Updated:** November 2024 (Enhanced with 2025 resources)
+- **Total Resources:** 425+ verified entries
 - **Verification Method:** Manual review + community reports
 - **Update Frequency:** Monthly with community contributions
 
@@ -200,6 +200,8 @@ mkdir -p .claude/skills
 ## 🔌 MCP Servers & Directories
 
 > **Model Context Protocol (MCP)** - Connect Claude to external tools, databases, APIs, and services through standardized server implementations.
+>
+> **2025 Updates:** OpenAI adopted MCP in March 2025 (ChatGPT, Agents SDK, Responses API). Google DeepMind confirmed MCP support for Gemini models in April 2025.
 
 ### 🎯 Major MCP Directories
 
@@ -211,6 +213,8 @@ mkdir -p .claude/skills
 | [**MCPServers.com**](https://mcpservers.com/) | 🎯 Comprehensive list | 800+ | Categorized, searchable | Nov 2024 |
 | [**Awesome MCP Servers**](https://mcpservers.org/) | 🔍 Search & discovery | Curated | Community-driven | Nov 2024 |
 | [**MCP Server Finder**](https://www.mcpserverfinder.com/) | 🗺️ Ultimate directory | Growing | Compare & implement | Nov 2024 |
+| [**Glama.ai**](https://glama.ai/mcp/servers) | 🚀 MCP hosting platform | 1000+ | API access, hosting | Nov 2024 |
+| [**Desktop Extensions**](https://www.desktopextensions.com/) | 📦 One-click MCP install | Curated | .dxt/.mcpb bundles | Nov 2024 |
 | [**Cursor Directory MCP**](https://cursor.directory/mcp) | 🖱️ Cursor & Claude integration | Multiple | Cursor-focused | Nov 2024 |
 | [**Claube.ai**](https://www.claube.ai/) | 🤖 Claude MCP servers | Curated | Claude-optimized | Nov 2024 |
 
@@ -223,11 +227,15 @@ mkdir -p .claude/skills
 | [**wong2/awesome-mcp-servers**](https://github.com/wong2/awesome-mcp-servers) | ⭐ 650+ | 📋 Curated | Comprehensive list |
 | [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) | ⭐ 350+ | 📚 Collection | Server collection |
 | [**habitoai/awesome-mcp-servers**](https://github.com/habitoai/awesome-mcp-servers) | ⭐ 280+ | 🔗 Integration | External connections |
-| [**TensorBlock/awesome-mcp-servers**](https://github.com/TensorBlock/awesome-mcp-servers) | ⭐ 250+ | 🌍 Comprehensive | Extensive collection |
+| [**TensorBlock/awesome-mcp-servers**](https://github.com/TensorBlock/awesome-mcp-servers) | ⭐ 250+ | 🌍 Comprehensive | Extensive collection (7,260+ servers) |
 | [**syntax-syndicate/awesome-mcp-servers-list**](https://github.com/syntax-syndicate/awesome-mcp-servers-list) | ⭐ 150+ | 🔍 Discovery | Explore implementations |
 | [**rohitg00/awesome-devops-mcp-servers**](https://github.com/rohitg00/awesome-devops-mcp-servers) | ⭐ 120+ | 🚀 DevOps | DevOps-focused |
 | [**MobinX/awesome-mcp-list**](https://github.com/MobinX/awesome-mcp-list) | ⭐ 50+ | 📝 Concise | Quick reference |
 | [**PipedreamHQ/awesome-mcp-servers**](https://github.com/PipedreamHQ/awesome-mcp-servers) | ⭐ 40+ | 🔄 Automation | Workflow automation |
+| [**collabnix/awesome-mcp-lists**](https://github.com/collabnix/awesome-mcp-lists) | New | 📦 Complete | Servers, Clients & Toolkits |
+| [**jaw9c/awesome-remote-mcp-servers**](https://github.com/jaw9c/awesome-remote-mcp-servers) | New | 🌐 Remote | Remote MCP servers |
+| [**agenticdevops/awesome-devops-mcp**](https://github.com/agenticdevops/awesome-devops-mcp) | New | ⚙️ Agentic | Agentic DevOps tools |
+| [**punkpeye/awesome-mcp-clients**](https://github.com/punkpeye/awesome-mcp-clients) | New | 🖥️ Clients | MCP client applications |
 
 ### 🔧 Specialized MCP Servers
 
@@ -251,22 +259,42 @@ mkdir -p .claude/skills
 ### 📖 MCP Resources
 
 - 🏢 [**Official MCP Documentation**](https://modelcontextprotocol.io/)
+- 📝 [**MCP Specification 2025-06-18**](https://modelcontextprotocol.io/specification/2025-06-18) - Latest spec update
+- 🔄 [**MCP Spec Updates (June 2025)**](https://auth0.com/blog/mcp-specs-update-all-about-auth/) - Authentication updates
 - 📝 [**MCP Examples**](https://modelcontextprotocol.io/examples)
 - 🔐 [**MCP Security Research**](https://arxiv.org/pdf/2503.23278) - Academic paper on MCP security
 - 🐙 [**MCP Security GitHub**](https://github.com/security-pride/MCP_Landscape) - Security case studies
 - 🐳 [**Docker MCP Toolkit**](https://www.docker.com/blog/connect-mcp-servers-to-claude-desktop-with-mcp-toolkit/)
 - 📚 [**Wikipedia - MCP**](https://en.wikipedia.org/wiki/Model_Context_Protocol)
+- 🔍 [**Descope MCP Guide**](https://www.descope.com/learn/post/mcp) - How MCP works
 
 ### 🎓 MCP Integration Tools
 
 | Tool | Description | Link |
 |------|-------------|------|
 | **Clinde** | One-click MCP installation | [clinde.ai](https://clinde.ai/) |
-| **Desktop Extensions** | Claude Desktop MCP manager | [Official Blog](https://www.anthropic.com/engineering/desktop-extensions) |
+| **Desktop Extensions** | Claude Desktop MCP manager (.mcpb) | [Official Blog](https://www.anthropic.com/engineering/desktop-extensions) |
+| **MCPB Spec** | MCP Bundle (.mcpb) specification | [GitHub](https://github.com/anthropics/mcpb) |
 | **Mesa MCP Connect** | MCP connection guide | [getmesa.com](https://www.getmesa.com/blog/how-to-connect-mcp-server-claude/) |
 | **Natoma MCP Guide** | Step-by-step setup | [natoma.ai](https://natoma.ai/blog/how-to-enabling-mcp-in-claude-desktop) |
 | **Liblab MCP SDK** | MCP server SDK generator | [liblab.com](https://liblab.com/docs/mcp/howto-connect-mcp-to-claude) |
 | **Weavely MCP Guide** | Free & paid setup | [weavely.ai](https://www.weavely.ai/blog/claude-mcp) |
+
+**Note:** As of September 2025, Desktop Extensions use the `.mcpb` (MCP Bundle) format. Legacy `.dxt` files continue to work but `.mcpb` is the official standard.
+
+### 🖥️ MCP Client Applications
+
+| Client | Platform | Description | Link |
+|--------|----------|-------------|------|
+| **Claude Desktop** | Desktop | Official Claude desktop app | [support.claude.com](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop) |
+| **Cursor** | Desktop | AI-first code editor with MCP | [cursor.sh](https://cursor.sh/) |
+| **Continue** | VS Code/JetBrains | Open-source AI code assistant | [continue.dev](https://www.continue.dev/) |
+| **Cherry Studio** | Desktop | Cross-platform LLM client | [GitHub](https://github.com/kangfenmao/cherry-studio) |
+| **AIaW** | Desktop | Full-featured AI Chat client | Cross-platform |
+| **DeepChat** | Desktop | Privacy-focused AI assistant | Cross-platform |
+| **BrowseWiz** | Browser | Customizable AI for side panel | Browser extension |
+| **Chainlit** | Python | Conversational AI framework | [chainlit.io](https://chainlit.io/) |
+| **Dolphin-MCP** | Bridge | Multi-server bridging client | Open-source |
 
 ---
 
@@ -286,9 +314,11 @@ mkdir -p .claude/skills
 
 ### 🎯 Official Skills Resources
 
-- 🏢 [**Anthropic Skills Announcement**](https://www.anthropic.com/news/skills) - Official introduction
+- 🏢 [**Anthropic Skills Announcement**](https://www.anthropic.com/news/skills) - Official introduction (Oct 2025)
 - 🐙 [**anthropics/skills**](https://github.com/anthropics/skills) - Official repository
 - 📖 [**Skills Documentation**](https://docs.claude.com/en/docs/claude-code/skills) - Official docs
+- 🆕 [**2025 Skills Schema**](https://docs.claude.com/en/docs/claude-code/skills) - New schema with tool permissions
+- 📚 [**Cursor IDE Skills Guide**](https://www.cursor-ide.com/blog/claude-code-skills) - Complete developer guide 2025
 
 ### 📦 Skills GitHub Repositories
 
@@ -520,6 +550,9 @@ npx claude-code-templates@latest --health-check
 
 | Resource | Type | Focus |
 |----------|------|-------|
+| [**Skywork AI**](https://skywork.ai/blog/ai-agent/) | Guide Hub | Complete Claude Code 2025 guides |
+| [**DevToolHub**](https://devtoolhub.com/claude-code-setup-guide/) | Guide | Setup & master guide 2025 |
+| [**Glama.ai Blog**](https://glama.ai/blog/) | Tutorials | MCP & desktop extensions |
 | [**DEV Community**](https://dev.to/therealmrmumba/claude-codes-custom-agent-framework-changes-everything-4o4m) | Article | Agent framework |
 | [**Medium - LatingXinAI**](https://medium.com/latinxinai/complete-guide-to-claude-code-templates-4e53d6688b34) | Guide | Templates |
 | [**The Context Layer**](https://medium.com/the-context-layer/stop-writing-claude-code-configurations-from-scratch-this-template-library-changes-everything-aaa49e7e767b) | Article | Configuration |
@@ -527,6 +560,7 @@ npx claude-code-templates@latest --health-check
 | [**Data-Mania**](https://www.data-mania.com/blog/top-10-claude-mcp-servers-for-marketing/) | Guide | Marketing MCPs |
 | [**Generect**](https://generect.com/blog/claude-mcp/) | Guide | Ultimate MCP guide |
 | [**Composio Blog**](https://composio.dev/blog/claude-code-plugin) | Article | Plugin development |
+| [**Ikkaro MCP Guide**](https://www.ikkaro.net/mcp-servers/) | Complete Guide | MCP Server 2025 guide |
 
 ### 🌐 Community News
 
@@ -581,7 +615,11 @@ npx claude-code-templates@latest --health-check
 
 | Tool | Category | Description | Link |
 |------|----------|-------------|------|
-| **claude-code-templates** | CLI | Configuration & monitoring | [GitHub](https://github.com/davila7/claude-code-templates) |
+| **claude-code-templates** | CLI | Configuration & monitoring | [GitHub](https://github.com/davila7/claude-code-templates) / [NPM](https://www.npmjs.com/package/claude-code-templates) |
+| **@anthropic-ai/claude-code** | CLI | Official Claude Code package | [NPM](https://www.npmjs.com/package/@anthropic-ai/claude-code) |
+| **@schuettc/claude-code-setup** | CLI | .claude directory setup tool | [NPM](https://www.npmjs.com/package/@schuettc/claude-code-setup) |
+| **@pimzino/claude-code-spec-workflow** | NPM | Spec workflow automation | [NPM](https://www.npmjs.com/package/@pimzino/claude-code-spec-workflow) |
+| **claude-code-exporter** | NPM | Export Claude Code configs | [NPM](https://www.npmjs.com/package/claude-code-exporter) |
 | **Docker MCP Toolkit** | Integration | Docker-based MCP setup | [Blog](https://www.docker.com/blog/connect-mcp-servers-to-claude-desktop-with-mcp-toolkit/) |
 | **Claude Code Action** | CI/CD | GitHub Actions integration | [Marketplace](https://github.com/marketplace/actions/claude-code-action-official) |
 
