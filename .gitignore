@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Security - NEVER commit these
+.git-credentials
+*.pem
+*.key
+*.crt
+*.p12
+id_rsa*
+id_ed25519*
+.ssh/
+credentials.json
+.credentials.json
+token.txt
+access_token*
+secret*
+password*
+
+# Claude Code specific
+.claude/
+.git-push-setup.md
+
+# Personal/Private
+research-marketplace/
+private/
+personal/
