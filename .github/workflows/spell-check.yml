@@ -1,0 +1,39 @@
+name: Spell Check
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+  pull_request:
+    paths:
+      - '**.md'
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Spell Check
+      uses: streetsidesoftware/cspell-action@v2
+      with:
+        files: |
+          **/*.md
+        config: .cspell.json
+        incremental_files_only: false
+
+    - name: Comment PR on Spelling Errors
+      if: failure() && github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '⚠️ **Spelling errors detected!** Please review the spell check results in the workflow output.'
+          })

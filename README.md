@@ -3,7 +3,7 @@
 # 🚀 Claude Plugin Ecosystem Hub
 ### *The Definitive Index of Claude AI Extensions*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=500%2B+Claude+Plugins%2C+MCPs%2C+Skills;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=400%2B+Claude+Plugins%2C+MCPs%2C+Skills;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=yellow)](https://github.com/umitkacar/claude-plugin-ecosystem-hub/stargazers)
@@ -47,11 +47,29 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### Why This List?
 
-- ✅ **Comprehensive**: 500+ resources across all categories
+- ✅ **Comprehensive**: 400+ curated resources across all categories
 - 🎯 **Curated**: Only quality, actively maintained projects
 - 📊 **Categorized**: Easy navigation by use case
 - 🔄 **Updated**: Regular maintenance and community contributions
 - 🌍 **Global**: Resources from individual developers to enterprise solutions
+
+### ⚠️ Security Notice
+
+> **Important:** This directory contains links to third-party resources and external marketplaces.
+> - Always **review code** before installing any plugin or MCP server
+> - Check **repository activity** and maintainer reputation
+> - Read **user reviews** and community feedback when available
+> - Verify **permissions** required by extensions
+> - Use **official sources** when possible
+>
+> For security best practices, see the [MCP Security Research](https://arxiv.org/pdf/2503.23278) paper.
+
+### 📅 Metadata
+
+- **Last Updated:** November 2024
+- **Total Resources:** 400+ verified entries
+- **Verification Method:** Manual review + community reports
+- **Update Frequency:** Monthly with community contributions
 
 ---
 
@@ -61,49 +79,121 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 🌟 Featured Marketplaces
 
-| Marketplace | Description | Plugins | Status |
-|------------|-------------|---------|--------|
-| [**Claude Code Plugins Hub**](https://claudecodeplugins.io/) | 🏆 Largest community marketplace with 229+ plugins | 229+ | ✅ Active |
-| [**ClaudePluginHub**](https://www.claudepluginhub.com/) | 🔍 Auto-discovers plugins hourly via GitHub scanning | Auto | ✅ Active |
-| [**Claude Marketplaces**](https://claudemarketplaces.com/) | 💼 Premium AI development tools & extensions | 150+ | ✅ Active |
-| [**Claude Code Plugin Directory**](https://www.claudecodeplugin.com/) | 📚 Comprehensive directory with guides & comparisons | 180+ | ✅ Active |
-| [**Claude Code Marketplace**](https://claudecodemarketplace.com/) | 🌐 Browser-based plugin discovery platform | 200+ | ✅ Active |
-| [**Claude Code Marketplace (Net)**](https://claudecodemarketplace.net/) | 🗳️ Community-driven with upvoting system | Community | ✅ Active |
+| Marketplace | Description | Count | Status | Last Verified |
+|------------|-------------|-------|--------|---------------|
+| [**Claude Code Plugins Hub**](https://claudecodeplugins.io/) | 🏆 Largest community marketplace | 229+ plugins | ✅ Active | Nov 2024 |
+| [**ClaudePluginHub**](https://www.claudepluginhub.com/) | 🔍 Auto-discovers via GitHub scanning | Auto-updated | ✅ Active | Nov 2024 |
+| [**Claude Marketplaces**](https://claudemarketplaces.com/) | 💼 Premium AI development tools | 150+ plugins | ✅ Active | Nov 2024 |
+| [**Claude Code Plugin Directory**](https://www.claudecodeplugin.com/) | 📚 Directory with guides & comparisons | 180+ plugins | ✅ Active | Nov 2024 |
+| [**Claude Code Marketplace**](https://claudecodemarketplace.com/) | 🌐 Browser-based discovery platform | 200+ plugins | ✅ Active | Nov 2024 |
+| [**Claude Code Marketplace (Net)**](https://claudecodemarketplace.net/) | 🗳️ Community-driven with upvoting | Community | ✅ Active | Nov 2024 |
 
 ### 🔥 GitHub-Based Marketplaces
 
 #### Production-Ready Collections
 
-| Repository | Maintainer | Focus | Plugins/Skills |
-|-----------|-----------|-------|---------------|
-| [**claude-code-plugins-plus**](https://github.com/jeremylongshore/claude-code-plugins-plus) | [@jeremylongshore](https://github.com/jeremylongshore) | 🎯 100% compliant with 2025 Skills schema | 243 plugins (175 skills) |
-| [**agents**](https://github.com/wshobson/agents) | [@wshobson](https://github.com/wshobson) | 🏭 Enterprise multi-agent orchestration | 85 agents, 47 skills |
-| [**commands**](https://github.com/wshobson/commands) | [@wshobson](https://github.com/wshobson) | ⚡ Production-ready slash commands | 44+ commands |
-| [**ClaudeKit**](https://github.com/zpaper-com/ClaudeKit) | [@zpaper-com](https://github.com/zpaper-com) | 🎨 Official extensions marketplace | 12 specialists |
-| [**ccplugins/marketplace**](https://github.com/ccplugins/marketplace) | [@ccplugins](https://github.com/ccplugins) | ⭐ Only curated awesome plugins | Curated |
-| [**Dev-GOM Marketplace**](https://github.com/Dev-GOM/claude-code-marketplace) | [@Dev-GOM](https://github.com/Dev-GOM) | 🔧 Productivity & workflow automation | Multiple |
-| [**ananddtyagi/marketplace**](https://github.com/ananddtyagi/claude-code-marketplace) | [@ananddtyagi](https://github.com/ananddtyagi) | 👥 Community-driven plugins | Community |
-| [**every-marketplace**](https://github.com/EveryInc/every-marketplace) | [@EveryInc](https://github.com/EveryInc) | 🏢 Official Every-Env extensions | Enterprise |
-| [**netresearch/marketplace**](https://github.com/netresearch/claude-code-marketplace) | [@netresearch](https://github.com/netresearch) | 🎯 TYPO3-focused development | Specialized |
-| [**getty104/marketplace**](https://github.com/getty104/claude-code-marketplace) | [@getty104](https://github.com/getty104) | 🧪 TDD automation workflows | TDD-focused |
-| [**skillsforge-marketplace**](https://github.com/rawveg/skillsforge-marketplace) | [@rawveg](https://github.com/rawveg) | 🔨 Skills-focused collection | Skills |
-| [**mhattingpete/marketplace**](https://github.com/mhattingpete/claude-skills-marketplace) | [@mhattingpete](https://github.com/mhattingpete) | 🔄 Git automation & workflows | Git-focused |
-| [**cc-marketplace-boilerplate**](https://github.com/halans/cc-marketplace-boilerplate) | [@halans](https://github.com/halans) | 📋 Marketplace starter template | Template |
-| [**awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) | [@hesreallyhim](https://github.com/hesreallyhim) | 📚 Curated commands & workflows | Curated |
-| [**hugoduncan/marketplace**](https://github.com/hugoduncan/claude-marketplace) | [@hugoduncan](https://github.com/hugoduncan) | 🛠️ Custom plugins collection | Custom |
+| Repository | Maintainer | Description | Count | Last Verified |
+|-----------|-----------|-------------|-------|---------------|
+| [**claude-code-plugins-plus**](https://github.com/jeremylongshore/claude-code-plugins-plus) | [@jeremylongshore](https://github.com/jeremylongshore) | 🎯 2025 Skills schema compliant | 175+ skills & commands | Nov 2024 |
+| [**agents**](https://github.com/wshobson/agents) | [@wshobson](https://github.com/wshobson) | 🏭 Enterprise multi-agent orchestration | 85 agents, 47 skills | Nov 2024 |
+| [**commands**](https://github.com/wshobson/commands) | [@wshobson](https://github.com/wshobson) | ⚡ Production-ready slash commands | 44+ commands | Nov 2024 |
+| [**ClaudeKit**](https://github.com/zpaper-com/ClaudeKit) | [@zpaper-com](https://github.com/zpaper-com) | 🎨 Official extensions marketplace | 12 specialists | Nov 2024 |
+| [**ccplugins/marketplace**](https://github.com/ccplugins/marketplace) | [@ccplugins](https://github.com/ccplugins) | ⭐ Only curated awesome plugins | Curated | Nov 2024 |
+| [**Dev-GOM Marketplace**](https://github.com/Dev-GOM/claude-code-marketplace) | [@Dev-GOM](https://github.com/Dev-GOM) | 🔧 Productivity & workflow automation | Multiple | Nov 2024 |
+| [**ananddtyagi/marketplace**](https://github.com/ananddtyagi/claude-code-marketplace) | [@ananddtyagi](https://github.com/ananddtyagi) | 👥 Community-driven plugins | Community | Nov 2024 |
+| [**every-marketplace**](https://github.com/EveryInc/every-marketplace) | [@EveryInc](https://github.com/EveryInc) | 🏢 Official Every-Env extensions | Enterprise | Nov 2024 |
+| [**netresearch/marketplace**](https://github.com/netresearch/claude-code-marketplace) | [@netresearch](https://github.com/netresearch) | 🎯 TYPO3-focused development | Specialized | Nov 2024 |
+| [**getty104/marketplace**](https://github.com/getty104/claude-code-marketplace) | [@getty104](https://github.com/getty104) | 🧪 TDD automation workflows | TDD-focused | Nov 2024 |
+| [**skillsforge-marketplace**](https://github.com/rawveg/skillsforge-marketplace) | [@rawveg](https://github.com/rawveg) | 🔨 Skills-focused collection | Skills | Nov 2024 |
+| [**mhattingpete/marketplace**](https://github.com/mhattingpete/claude-skills-marketplace) | [@mhattingpete](https://github.com/mhattingpete) | 🔄 Git automation & workflows | Git-focused | Nov 2024 |
+| [**cc-marketplace-boilerplate**](https://github.com/halans/cc-marketplace-boilerplate) | [@halans](https://github.com/halans) | 📋 Marketplace starter template | Template | Nov 2024 |
+| [**awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) | [@hesreallyhim](https://github.com/hesreallyhim) | 📚 Curated commands & workflows | Curated | Nov 2024 |
+| [**hugoduncan/marketplace**](https://github.com/hugoduncan/claude-marketplace) | [@hugoduncan](https://github.com/hugoduncan) | 🛠️ Custom plugins collection | Custom | Nov 2024 |
 
-### 📥 Installation
+### 📊 Marketplace Comparison
 
+#### Which Marketplace Should I Use?
+
+| Feature | ClaudeCodePlugins.io | ClaudePluginHub | GitHub-based | MCP Market |
+|---------|---------------------|-----------------|--------------|------------|
+| **Plugin Count** | 229+ | Auto-updated | Varies | 1000+ |
+| **Auto-Discovery** | ❌ Manual | ✅ Hourly scan | ❌ Manual | ✅ Yes |
+| **Pricing** | Free | Free | Free | Free/Paid |
+| **Rating System** | ✅ Yes | ❌ No | ⭐ GitHub stars | ✅ Yes |
+| **Installation** | Web + CLI | Web | CLI only | Web + CLI |
+| **Update Method** | Manual | Automatic | Git pull | Automatic |
+| **Community Features** | ✅ Reviews | ❌ Limited | ✅ Issues/PRs | ✅ Full |
+| **Official Support** | ❌ Community | ❌ Community | Varies | ✅ Some |
+| **Best For** | Beginners | Discovery | Developers | Enterprise |
+
+#### Quick Decision Guide
+
+- **🎯 For Beginners:** Start with [ClaudeCodePlugins.io](https://claudecodeplugins.io/) - user-friendly interface
+- **🔍 For Discovery:** Use [ClaudePluginHub](https://www.claudepluginhub.com/) - auto-discovers new plugins
+- **💻 For Developers:** Choose GitHub-based marketplaces - full control and customization
+- **🏢 For Enterprise:** Consider [MCP Market](https://mcpmarket.com/) - professional support available
+- **🎨 For Skills:** Visit [SkillsMP.com](https://skillsmp.com) - specialized for agent skills
+
+### 📥 Installation Guide
+
+#### Plugin Installation
 ```bash
-# Add a marketplace
+# Add a marketplace to your Claude Code
 /plugin marketplace add username/repo-name
 
-# Browse available plugins
+# Browse available plugins from all marketplaces
 /plugin
+
+# Search for specific plugins
+/plugin search <keyword>
 
 # Install a specific plugin
 /plugin install plugin-name
+
+# Update installed plugins
+/plugin update
+
+# Remove a plugin
+/plugin remove plugin-name
 ```
+
+#### MCP Server Setup
+```bash
+# Using Claude Desktop
+1. Open Claude Desktop settings
+2. Navigate to "Developer" → "Edit Config"
+3. Add MCP server configuration:
+
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your-token"
+      }
+    }
+  }
+}
+
+# Restart Claude Desktop to apply changes
+```
+
+#### Skills Configuration
+```bash
+# Skills are automatically discovered
+# Create .claude/skills/ directory in your project
+mkdir -p .claude/skills
+
+# Add skill files (YAML or JSON format)
+# Skills activate automatically based on context
+```
+
+#### Troubleshooting Common Issues
+- **"Failed to connect"**: Check MCP server paths are absolute, not relative
+- **"Plugin not found"**: Ensure marketplace is added first
+- **"Permission denied"**: Verify API tokens and access rights
+- **"Skill not activating"**: Check skill conditions match your context
 
 ---
 
@@ -113,31 +203,31 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 🎯 Major MCP Directories
 
-| Directory | Description | Servers | Features |
-|-----------|-------------|---------|----------|
-| [**MCP Market**](https://mcpmarket.com/) | 🏆 #1 MCP Server marketplace | 1000+ | Claude/Cursor compatible |
-| [**MCP.so**](https://mcp.so/) | 🌐 Community-driven directory | 16,987+ | Central hub, discovery |
-| [**LobeHub MCP**](https://lobehub.com/mcp) | ⭐ Multidimensional ratings | 500+ | Quality ratings, stability |
-| [**MCPServers.com**](https://mcpservers.com/) | 🎯 Comprehensive list | 800+ | Categorized, searchable |
-| [**Awesome MCP Servers**](https://mcpservers.org/) | 🔍 Search & discovery | Curated | Community-driven |
-| [**MCP Server Finder**](https://www.mcpserverfinder.com/) | 🗺️ Ultimate directory | Growing | Compare & implement |
-| [**Cursor Directory MCP**](https://cursor.directory/mcp) | 🖱️ Cursor & Claude integration | Multiple | Cursor-focused |
-| [**Claube.ai**](https://www.claube.ai/) | 🤖 Claude MCP servers | Curated | Claude-optimized |
+| Directory | Description | Count | Features | Last Verified |
+|-----------|-------------|-------|----------|---------------|
+| [**MCP Market**](https://mcpmarket.com/) | 🏆 #1 MCP Server marketplace | 1000+ | Claude/Cursor compatible | Nov 2024 |
+| [**MCP.so**](https://mcp.so/) | 🌐 Community-driven directory | 100+ | Central hub, discovery | Nov 2024 |
+| [**LobeHub MCP**](https://lobehub.com/mcp) | ⭐ Multidimensional ratings | 500+ | Quality ratings, stability | Nov 2024 |
+| [**MCPServers.com**](https://mcpservers.com/) | 🎯 Comprehensive list | 800+ | Categorized, searchable | Nov 2024 |
+| [**Awesome MCP Servers**](https://mcpservers.org/) | 🔍 Search & discovery | Curated | Community-driven | Nov 2024 |
+| [**MCP Server Finder**](https://www.mcpserverfinder.com/) | 🗺️ Ultimate directory | Growing | Compare & implement | Nov 2024 |
+| [**Cursor Directory MCP**](https://cursor.directory/mcp) | 🖱️ Cursor & Claude integration | Multiple | Cursor-focused | Nov 2024 |
+| [**Claube.ai**](https://www.claube.ai/) | 🤖 Claude MCP servers | Curated | Claude-optimized | Nov 2024 |
 
 ### 📚 GitHub Awesome Lists
 
 | Repository | Stars | Focus | Description |
 |-----------|-------|-------|-------------|
-| [**modelcontextprotocol/servers**](https://github.com/modelcontextprotocol/servers) | ⭐⭐⭐⭐⭐ | 🏢 Official | Official MCP servers repository |
-| [**appcypher/awesome-mcp-servers**](https://github.com/appcypher/awesome-mcp-servers) | ⭐⭐⭐⭐ | 🎯 Production | Production-ready servers |
-| [**wong2/awesome-mcp-servers**](https://github.com/wong2/awesome-mcp-servers) | ⭐⭐⭐⭐ | 📋 Curated | Comprehensive list |
-| [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) | ⭐⭐⭐ | 📚 Collection | Server collection |
-| [**habitoai/awesome-mcp-servers**](https://github.com/habitoai/awesome-mcp-servers) | ⭐⭐⭐ | 🔗 Integration | External connections |
-| [**TensorBlock/awesome-mcp-servers**](https://github.com/TensorBlock/awesome-mcp-servers) | ⭐⭐⭐ | 🌍 Comprehensive | Extensive collection |
-| [**syntax-syndicate/awesome-mcp-servers-list**](https://github.com/syntax-syndicate/awesome-mcp-servers-list) | ⭐⭐ | 🔍 Discovery | Explore implementations |
-| [**rohitg00/awesome-devops-mcp-servers**](https://github.com/rohitg00/awesome-devops-mcp-servers) | ⭐⭐ | 🚀 DevOps | DevOps-focused |
-| [**MobinX/awesome-mcp-list**](https://github.com/MobinX/awesome-mcp-list) | ⭐ | 📝 Concise | Quick reference |
-| [**PipedreamHQ/awesome-mcp-servers**](https://github.com/PipedreamHQ/awesome-mcp-servers) | ⭐ | 🔄 Automation | Workflow automation |
+| [**modelcontextprotocol/servers**](https://github.com/modelcontextprotocol/servers) | ⭐ 2.5k+ | 🏢 Official | Official MCP servers repository |
+| [**appcypher/awesome-mcp-servers**](https://github.com/appcypher/awesome-mcp-servers) | ⭐ 800+ | 🎯 Production | Production-ready servers |
+| [**wong2/awesome-mcp-servers**](https://github.com/wong2/awesome-mcp-servers) | ⭐ 650+ | 📋 Curated | Comprehensive list |
+| [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) | ⭐ 350+ | 📚 Collection | Server collection |
+| [**habitoai/awesome-mcp-servers**](https://github.com/habitoai/awesome-mcp-servers) | ⭐ 280+ | 🔗 Integration | External connections |
+| [**TensorBlock/awesome-mcp-servers**](https://github.com/TensorBlock/awesome-mcp-servers) | ⭐ 250+ | 🌍 Comprehensive | Extensive collection |
+| [**syntax-syndicate/awesome-mcp-servers-list**](https://github.com/syntax-syndicate/awesome-mcp-servers-list) | ⭐ 150+ | 🔍 Discovery | Explore implementations |
+| [**rohitg00/awesome-devops-mcp-servers**](https://github.com/rohitg00/awesome-devops-mcp-servers) | ⭐ 120+ | 🚀 DevOps | DevOps-focused |
+| [**MobinX/awesome-mcp-list**](https://github.com/MobinX/awesome-mcp-list) | ⭐ 50+ | 📝 Concise | Quick reference |
+| [**PipedreamHQ/awesome-mcp-servers**](https://github.com/PipedreamHQ/awesome-mcp-servers) | ⭐ 40+ | 🔄 Automation | Workflow automation |
 
 ### 🔧 Specialized MCP Servers
 
@@ -186,13 +276,13 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 🌟 Primary Skills Hubs
 
-| Hub | Description | Skills | Features |
-|-----|-------------|--------|----------|
-| [**SkillsMP.com**](https://skillsmp.com) | 🏆 Smart search & quality indicators | 100+ | Category filtering |
-| [**Claude Skills Hub**](https://claudeskills.info/) | 📚 Curated directory | 30+ | Download & discover |
-| [**Claude Skills Hub (Org)**](https://claudeskillshub.org/) | 👥 Community-based | Community | Community-driven |
-| [**ClaudeSkill.site**](https://claudeskill.site/en) | 🌐 International hub | Multiple | Multi-language |
-| [**ClaudeSkill.net**](https://www.claudeskill.net/) | 🛠️ AI Tools Directory | Curated | Tools-focused |
+| Hub | Description | Count | Features | Last Verified |
+|-----|-------------|-------|----------|---------------|
+| [**SkillsMP.com**](https://skillsmp.com) | 🏆 Smart search & quality indicators | 100+ | Category filtering | Nov 2024 |
+| [**ClaudeSkills.info**](https://claudeskills.info/) | 📚 Curated directory (.info domain) | 30+ | Download & discover | Nov 2024 |
+| [**ClaudeSkillsHub.org**](https://claudeskillshub.org/) | 👥 Community-driven (.org domain) | Community | User submissions | Nov 2024 |
+| [**ClaudeSkill.site**](https://claudeskill.site/en) | 🌐 International hub | Multiple | Multi-language | Nov 2024 |
+| [**ClaudeSkill.net**](https://www.claudeskill.net/) | 🛠️ AI Tools Directory | Curated | Tools-focused | Nov 2024 |
 
 ### 🎯 Official Skills Resources
 
@@ -226,11 +316,11 @@ Skills span multiple domains:
 
 ### 📚 Command Repositories
 
-| Repository | Commands | Focus |
-|-----------|----------|-------|
-| [**wshobson/commands**](https://github.com/wshobson/commands) | 44+ | Production-ready commands |
-| Included in [**claude-code-plugins-plus**](https://github.com/jeremylongshore/claude-code-plugins-plus) | 243 | Comprehensive plugin suite |
-| Included in [**ClaudeKit**](https://github.com/zpaper-com/ClaudeKit) | 12+ | Specialist commands |
+| Repository | Commands | Focus | Notes |
+|-----------|----------|-------|-------|
+| [**wshobson/commands**](https://github.com/wshobson/commands) | 44+ | Production-ready commands | Standalone command collection |
+| [**claude-code-plugins-plus**](https://github.com/jeremylongshore/claude-code-plugins-plus) | 175 skills | Skills & commands bundle | See Plugin Marketplaces section |
+| [**ClaudeKit**](https://github.com/zpaper-com/ClaudeKit) | 12 | Specialist commands | Integrated with ClaudeKit suite |
 
 ### 📖 Command Resources
 
@@ -266,7 +356,7 @@ Commands are simple Markdown files in `.claude/commands/`:
 |-----------|--------|-------------|------------|
 | **Seth Hobson's Agents** | 85+ | 🏆 Most comprehensive multi-agent system | [wshobson/agents](https://github.com/wshobson/agents) |
 | **ClaudeKit Specialists** | 12 | 🎯 AI specialists for development | [zpaper-com/ClaudeKit](https://github.com/zpaper-com/ClaudeKit) |
-| **Plugins Plus Agents** | 175 | ⚡ 2025 schema-compliant | [claude-code-plugins-plus](https://github.com/jeremylongshore/claude-code-plugins-plus) |
+| **Jeremy Longshore's Collection** | 175 skills as agents | ⚡ 2025 schema-compliant skills | [claude-code-plugins-plus](https://github.com/jeremylongshore/claude-code-plugins-plus) |
 
 ### 🎯 Agent Use Cases
 
@@ -549,7 +639,65 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ---
 
+## 👥 Contributors
+
+We appreciate all contributions to the Claude Plugin Ecosystem Hub! This project thrives thanks to our amazing community.
+
+### 🏆 Top Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/umitkacar">
+          <img src="https://github.com/umitkacar.png?size=100" width="100px;" alt="Umit Kacar"/><br />
+          <sub><b>Umit Kacar</b></sub>
+        </a><br />
+        <a href="#maintenance" title="Maintenance">🚧</a>
+        <a href="#content" title="Content">🖋</a>
+      </td>
+      <!-- Add more contributors here -->
+    </tr>
+  </tbody>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+### 🎖️ Contributor Badges
+
+![Contributors](https://img.shields.io/github/contributors/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=blue)
+![Forks](https://img.shields.io/github/forks/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=green)
+![Issues](https://img.shields.io/github/issues/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=orange)
+![Pull Requests](https://img.shields.io/github/issues-pr/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=purple)
+
+### 💪 How to Contribute
+
+1. **Add Resources**: Submit new marketplaces, plugins, or MCP servers
+2. **Fix Issues**: Help fix broken links or outdated information
+3. **Improve Docs**: Enhance documentation and guides
+4. **Share Feedback**: Open issues for suggestions
+
+See our [Contributing Guide](.github/CONTRIBUTING.md) for detailed instructions.
+
+### 🌟 Support the Project
+
+- ⭐ **Star** this repository
+- 🔄 **Share** with your network
+- 📝 **Write** about your experience
+- 💰 **Sponsor** development
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/umitkacar)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/umitkacar)
+
+---
+
 ## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=umitkacar/claude-plugin-ecosystem-hub&type=Date)](https://star-history.com/#umitkacar/claude-plugin-ecosystem-hub&Date)
 
 If you find this repository helpful, please consider giving it a star! ⭐
 

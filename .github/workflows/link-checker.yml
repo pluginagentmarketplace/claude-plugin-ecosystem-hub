@@ -1,0 +1,79 @@
+name: Link Checker
+
+on:
+  schedule:
+    # Run every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+      - 'docs/**/*.md'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/**/*.md'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Link Checker
+      uses: lycheeverse/lychee-action@v1.8.0
+      with:
+        # Check all markdown files
+        args: >
+          --verbose
+          --no-progress
+          --max-retries 3
+          --timeout 20
+          --accept 200,201,202,203,204,301,302,303,304,307,308
+          --exclude-loopback
+          --exclude 'linkedin.com'
+          --exclude 'twitter.com'
+          --exclude 'localhost'
+          --exclude '127.0.0.1'
+          --github-token ${{ secrets.GITHUB_TOKEN }}
+          '*.md'
+          'docs/**/*.md'
+        fail: true
+
+    - name: Create Issue on Failure
+      if: failure() && github.event_name == 'schedule'
+      uses: peter-evans/create-issue@v4
+      with:
+        title: "🔗 Broken Links Detected in Documentation"
+        body: |
+          ## Broken Links Found
+
+          The automated link checker has detected broken links in the repository.
+
+          Please check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
+
+          ### Next Steps:
+          1. Review the broken links in the workflow output
+          2. Update or remove the broken links
+          3. Verify the changes locally
+          4. Submit a PR with fixes
+
+          ---
+          *This issue was automatically created by the Link Checker workflow.*
+        labels: |
+          bug
+          documentation
+          good first issue
+        assignees: umitkacar
+
+    - name: Upload Results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: link-checker-results
+        path: lychee-out.md
+        retention-days: 7
