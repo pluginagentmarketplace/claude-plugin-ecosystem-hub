@@ -29,7 +29,7 @@ Core Web Vitals are Google's standardized metrics for measuring user experience 
 - **Optimization Techniques:**
   - Break up long JavaScript tasks (use requestIdleCallback)
   - Code splitting to reduce main thread work
-  - Use web workers for heavy computations
+  - Use Web Workers for heavy computations
   - Minimize third-party script impact
   - Optimize event handlers and debounce/throttle events
   - Implement progressive hydration for frameworks
@@ -1278,7 +1278,7 @@ module.exports = {
 - [ ] Tree shaking enabled
 - [ ] Remove unused code
 - [ ] Minimize bundle sizes
-- [ ] Use web workers for heavy tasks
+- [ ] Use Web Workers for heavy tasks
 - [ ] Debounce/throttle event handlers
 - [ ] Optimize loops and algorithms
 - [ ] Avoid memory leaks
@@ -1369,3 +1369,9 @@ Key Principles:
 - Make performance part of your development culture
 
 By following these techniques and strategies, you can create fast, responsive web applications that provide excellent user experiences across all devices and network conditions.
+
+---
+
+**Document Version**: 1.0
+**Last Updated**: November 2025
+**Based on**: Industry best practices for frontend performance optimization and Web.dev performance guidelines
