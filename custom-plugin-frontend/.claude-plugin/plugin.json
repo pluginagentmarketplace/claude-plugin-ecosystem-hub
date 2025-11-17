@@ -1,0 +1,29 @@
+{
+  "name": "custom-plugin-frontend",
+  "version": "1.0.0",
+  "description": "Comprehensive frontend development learning plugin with 7 specialized agents covering fundamentals to advanced topics",
+  "author": {
+    "name": "Claude Code Frontend Ecosystem Team",
+    "email": "frontend@claude.example.com",
+    "url": "https://github.com/pluginagentmarketplace/claude-plugin-ecosystem-hub"
+  },
+  "homepage": "https://github.com/pluginagentmarketplace/claude-plugin-ecosystem-hub/tree/main/custom-plugin-frontend",
+  "repository": "https://github.com/pluginagentmarketplace/claude-plugin-ecosystem-hub",
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "learning",
+    "web-development",
+    "javascript",
+    "react",
+    "vue",
+    "angular",
+    "typescript",
+    "testing",
+    "performance"
+  ],
+  "agents": "${CLAUDE_PLUGIN_ROOT}/agents/",
+  "skills": "${CLAUDE_PLUGIN_ROOT}/skills/",
+  "commands": "${CLAUDE_PLUGIN_ROOT}/commands/",
+  "hooks": "${CLAUDE_PLUGIN_ROOT}/hooks/hooks.json"
+}
