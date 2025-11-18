@@ -673,7 +673,11 @@ We welcome contributions from the community! This is a living document that grow
 
 ## 📄 License
 
-This repository is licensed under the [MIT License](LICENSE).
+MIT License
+
+---
+
+**License:** MIT
 
 ---
 
