@@ -272,9 +272,8 @@ mkdir -p .claude/skills
 
 | Tool | Description | Link |
 |------|-------------|------|
-| **Clinde** | One-click MCP installation | [clinde.ai](https://clinde.ai/) |
-| **Desktop Extensions** | Claude Desktop MCP manager (.mcpb) | [Official Blog](https://www.anthropic.com/engineering/desktop-extensions) |
-| **MCPB Spec** | MCP Bundle (.mcpb) specification | [GitHub](https://github.com/anthropics/mcpb) |
+| **Claude** | One-click MCP installation | [clinde.ai](https://clinde.ai/) |
+| **Desktop Extensions** | Claude Desktop MCP manager | [Official Blog](https://www.anthropic.com/engineering/desktop-extensions) |
 | **Mesa MCP Connect** | MCP connection guide | [getmesa.com](https://www.getmesa.com/blog/how-to-connect-mcp-server-claude/) |
 | **Natoma MCP Guide** | Step-by-step setup | [natoma.ai](https://natoma.ai/blog/how-to-enabling-mcp-in-claude-desktop) |
 | **Liblab MCP SDK** | MCP server SDK generator | [liblab.com](https://liblab.com/docs/mcp/howto-connect-mcp-to-claude) |
