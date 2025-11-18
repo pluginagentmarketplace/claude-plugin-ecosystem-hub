@@ -633,7 +633,7 @@ npx claude-code-templates@latest --health-check
 | Portal | Focus | Link |
 |--------|-------|------|
 | **ClaudeSkill.net** | AI Tools Directory | [Site](https://www.claudeskill.net/) |
-| **TooliFy** | Claude tools catalog | [Site](https://www.toolify.ai/tool/claude-skills-hub/) |
+| **Toolify** | Claude tools catalog | [Site](https://www.toolify.ai/tool/claude-skills-hub/) |
 
 ---
 
