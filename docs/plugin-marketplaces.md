@@ -276,7 +276,7 @@ Track usage with:
 
 - [Official Plugin Documentation](https://docs.claude.com/en/docs/claude-code/plugins)
 - [Marketplace Template](https://github.com/halans/cc-marketplace-boilerplate)
-- [Community Forum](https://github.com/umitkacar/claude-plugin-ecosystem-hub/discussions)
+- Community: GitHub Issues and Discussions available on the repository
 
 ---
 

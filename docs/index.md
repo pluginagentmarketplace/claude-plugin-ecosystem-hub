@@ -34,9 +34,9 @@ Welcome to the comprehensive documentation for the Claude Plugin Ecosystem Hub. 
 
 ## 💡 Need Help?
 
-- **Issues**: [GitHub Issues](https://github.com/umitkacar/claude-plugin-ecosystem-hub/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/umitkacar/claude-plugin-ecosystem-hub/discussions)
-- **Community**: Join our [Discord](#) or [Slack](#)
+- **Issues**: Report bugs and request features via GitHub Issues
+- **Discussions**: Ask questions and share ideas via GitHub Discussions
+- **Community**: Engage with the community on the repository
 
 ---
 
