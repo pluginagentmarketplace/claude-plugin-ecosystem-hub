@@ -43,6 +43,12 @@ jobs:
           --exclude 'twitter.com'
           --exclude 'localhost'
           --exclude '127.0.0.1'
+          --exclude 'investing.com.*'
+          --exclude 'npmjs.com.*'
+          --exclude 'buymeacoffee.com.*'
+          --exclude 'mcpmarket.com.*'
+          --exclude '.*github.com/umitkacar/claude-plugin-ecosystem-hub/discussions.*'
+          --exclude '.*github.com/umitkacar/claude-plugin-ecosystem-hub/issues.*'
           --github-token ${{ secrets.GITHUB_TOKEN }}
           '*.md'
           'docs/**/*.md'

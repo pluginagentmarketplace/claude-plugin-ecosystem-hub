@@ -139,9 +139,7 @@ Special thanks to all contributors:
 
 ## Reporting Issues
 
-Found an issue? Please report it:
-- [GitHub Issues](https://github.com/umitkacar/claude-plugin-ecosystem-hub/issues)
-- [Discussions](https://github.com/umitkacar/claude-plugin-ecosystem-hub/discussions)
+Found an issue? Please report it via GitHub Issues or start a discussion on the repository.
 
 ---
 

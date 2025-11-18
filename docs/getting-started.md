@@ -120,7 +120,7 @@ Consider premium solutions:
 
 - **Quick Help**: Type `/help` in Claude Code
 - **Documentation**: Read our [detailed guides](./index.md)
-- **Community**: Ask in [GitHub Discussions](https://github.com/umitkacar/claude-plugin-ecosystem-hub/discussions)
+- **Community**: Ask questions via GitHub Issues or Discussions on the repository
 
 ---
 
