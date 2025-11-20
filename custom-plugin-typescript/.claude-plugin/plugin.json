@@ -1,0 +1,44 @@
+{
+  "name": "custom-plugin-typescript",
+  "version": "1.0.0",
+  "description": "Master TypeScript development: type system, generics, advanced types, decorators, testing, and migration strategies for scalable, type-safe applications",
+  "author": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com",
+    "url": "https://github.com/pluginagentmarketplace/claude-plugin-ecosystem-hub"
+  },
+  "homepage": "https://github.com/pluginagentmarketplace/claude-plugin-ecosystem-hub/tree/main/custom-plugin-typescript",
+  "repository": "https://github.com/pluginagentmarketplace/claude-plugin-ecosystem-hub",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "types",
+    "generics",
+    "type-system",
+    "decorators",
+    "testing",
+    "migration",
+    "type-safety",
+    "static-typing",
+    "learning"
+  ],
+  "agents": [
+    "agents/01-typescript-fundamentals.md",
+    "agents/02-advanced-types.md",
+    "agents/03-type-system.md",
+    "agents/04-decorators-metadata.md",
+    "agents/05-typescript-configuration.md",
+    "agents/06-testing-types.md",
+    "agents/07-migration-best-practices.md"
+  ],
+  "skills": [
+    "skills/typescript-types/SKILL.md",
+    "skills/generics-patterns/SKILL.md",
+    "skills/type-guards/SKILL.md",
+    "skills/decorators/SKILL.md",
+    "skills/typescript-react/SKILL.md",
+    "skills/typescript-node/SKILL.md",
+    "skills/typescript-testing/SKILL.md"
+  ],
+  "commands": []
+}
