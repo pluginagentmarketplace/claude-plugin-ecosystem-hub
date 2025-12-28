@@ -149,25 +149,44 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 📥 Installation Guide
 
-#### Plugin Installation
+#### Plugin Installation (Claude Code CLI)
 ```bash
-# Add a marketplace to your Claude Code
-/plugin marketplace add username/repo-name
+# Add a marketplace from GitHub
+claude plugin marketplace add owner/repo-name
 
-# Browse available plugins from all marketplaces
+# Example: Add Angular plugin marketplace
+claude plugin marketplace add pluginagentmarketplace/custom-plugin-angular
+
+# Install a plugin from marketplace
+claude plugin install plugin-name@marketplace-name
+
+# Example: Install Angular development assistant
+claude plugin install angular-development-assistant@pluginagentmarketplace-angular
+
+# List installed plugins
+claude plugin list
+
+# Update installed plugins
+claude plugin update
+
+# Remove a plugin
+claude plugin remove plugin-name
+
+# Enable/disable a plugin
+claude plugin enable plugin-name
+claude plugin disable plugin-name
+```
+
+#### Plugin Installation (Slash Commands - Inside Claude Code)
+```bash
+# Browse available plugins (interactive)
 /plugin
 
 # Search for specific plugins
 /plugin search <keyword>
 
-# Install a specific plugin
+# Quick install
 /plugin install plugin-name
-
-# Update installed plugins
-/plugin update
-
-# Remove a plugin
-/plugin remove plugin-name
 ```
 
 #### MCP Server Setup
