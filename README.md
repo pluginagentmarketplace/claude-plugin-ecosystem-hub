@@ -149,53 +149,112 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 📥 Installation Guide
 
-#### Plugin Installation (Claude Code CLI)
-```bash
-# Add a marketplace from GitHub
-claude plugin marketplace add owner/repo-name
+#### Plugin Commands (CLI)
 
-# Example: Add Angular plugin marketplace
+```bash
+# Marketplace Management
+claude plugin marketplace add <source>      # Add marketplace (URL, path, or GitHub repo)
+claude plugin marketplace list              # List all configured marketplaces
+claude plugin marketplace remove <name>     # Remove a marketplace
+claude plugin marketplace update [name]     # Update marketplace(s)
+
+# Plugin Management
+claude plugin install <plugin>              # Install plugin (use plugin@marketplace for specific)
+claude plugin uninstall <plugin>            # Uninstall a plugin (alias: remove)
+claude plugin enable <plugin>               # Enable a disabled plugin
+claude plugin disable <plugin>              # Disable a plugin
+claude plugin update <plugin>               # Update to latest version
+claude plugin validate <path>               # Validate a plugin or marketplace manifest
+```
+
+**Examples:**
+```bash
+# Add Angular plugin marketplace from GitHub
 claude plugin marketplace add pluginagentmarketplace/custom-plugin-angular
 
-# Install a plugin from marketplace
-claude plugin install plugin-name@marketplace-name
-
-# Example: Install Angular development assistant
+# Install Angular development assistant
 claude plugin install angular-development-assistant@pluginagentmarketplace-angular
 
-# List installed plugins
-claude plugin list
-
-# Update installed plugins
-claude plugin update
-
-# Remove a plugin
-claude plugin remove plugin-name
-
-# Enable/disable a plugin
-claude plugin enable plugin-name
-claude plugin disable plugin-name
+# Update all marketplaces
+claude plugin marketplace update
 ```
 
-#### Plugin Installation (Slash Commands - Inside Claude Code)
+#### MCP Commands (CLI)
+
 ```bash
-# Browse available plugins (interactive)
-/plugin
-
-# Search for specific plugins
-/plugin search <keyword>
-
-# Quick install
-/plugin install plugin-name
+# MCP Server Management
+claude mcp add <name> <commandOrUrl> [args]   # Add MCP server
+claude mcp remove <name>                       # Remove MCP server
+claude mcp list                                # List configured servers
+claude mcp get <name>                          # Get server details
+claude mcp add-json <name> <json>              # Add server with JSON config
+claude mcp add-from-claude-desktop             # Import from Claude Desktop (Mac/WSL)
+claude mcp serve                               # Start Claude Code MCP server
+claude mcp reset-project-choices               # Reset project-scoped servers
 ```
 
-#### MCP Server Setup
+**Examples:**
 ```bash
-# Using Claude Desktop
-1. Open Claude Desktop settings
-2. Navigate to "Developer" → "Edit Config"
-3. Add MCP server configuration:
+# Add HTTP MCP server
+claude mcp add --transport http sentry https://mcp.sentry.dev/mcp
 
+# Add SSE MCP server
+claude mcp add --transport sse asana https://mcp.asana.com/sse
+
+# Add stdio MCP server with environment variable
+claude mcp add --transport stdio airtable --env AIRTABLE_API_KEY=YOUR_KEY -- npx -y airtable-mcp-server
+```
+
+#### Claude Code CLI Options
+
+```bash
+# Session Management
+claude -c, --continue                    # Continue most recent conversation
+claude -r, --resume [session-id]         # Resume by session ID or pick interactively
+claude --fork-session                    # Create new session when resuming
+
+# Model & Agent Selection
+claude --model <model>                   # Specify model (sonnet, opus, haiku, or full name)
+claude --agent <agent>                   # Use specific agent for session
+
+# Plugin & MCP Configuration
+claude --plugin-dir <paths>              # Load plugins from directories
+claude --mcp-config <configs>            # Load MCP servers from JSON files
+claude --strict-mcp-config               # Only use MCP servers from --mcp-config
+
+# Output Modes
+claude -p, --print                       # Print response and exit (non-interactive)
+claude --output-format <format>          # Output format: text, json, stream-json
+claude --json-schema <schema>            # JSON Schema for structured output
+
+# Browser Integration (NEW!)
+claude --chrome                          # Enable Claude in Chrome integration
+claude --no-chrome                       # Disable Claude in Chrome integration
+
+# Utility Commands
+claude doctor                            # Check auto-updater health
+claude update                            # Check and install updates
+claude install [target]                  # Install native build (stable, latest, version)
+claude setup-token                       # Set up authentication token
+```
+
+#### Slash Commands (Inside Claude Code)
+
+```bash
+# Plugin Management
+/plugin                                  # Browse available plugins (interactive)
+/plugin search <keyword>                 # Search for plugins
+/plugin install <plugin-name>            # Quick install
+
+# MCP Management
+/mcp                                     # Manage MCP servers interactively
+/mcp enable <server>                     # Enable MCP server
+/mcp disable <server>                    # Disable MCP server
+```
+
+#### MCP Server Setup (JSON Config)
+
+```json
 {
   "mcpServers": {
     "github": {
@@ -207,25 +266,31 @@ claude plugin disable plugin-name
     }
   }
 }
-
-# Restart Claude Desktop to apply changes
 ```
 
 #### Skills Configuration
+
 ```bash
-# Skills are automatically discovered
-# Create .claude/skills/ directory in your project
+# Skills are automatically discovered from:
+# 1. Project: .claude/skills/
+# 2. Plugin: plugin-name/skills/
+
+# Create project skills directory
 mkdir -p .claude/skills
 
-# Add skill files (YAML or JSON format)
 # Skills activate automatically based on context
+# Use SKILL.md files with YAML frontmatter
 ```
 
 #### Troubleshooting Common Issues
-- **"Failed to connect"**: Check MCP server paths are absolute, not relative
-- **"Plugin not found"**: Ensure marketplace is added first
-- **"Permission denied"**: Verify API tokens and access rights
-- **"Skill not activating"**: Check skill conditions match your context
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| "Failed to connect" | Shell expansion in paths | Use absolute paths, not `$HOME` or `~` |
+| "Plugin not found" | Marketplace not added | Run `claude plugin marketplace add` first |
+| "Permission denied" | Missing API tokens | Verify tokens in env variables |
+| "Skill not activating" | Wrong trigger conditions | Check description matches context |
+| "MCP server stuck" | Config syntax error | Validate JSON, restart Claude Code |
 
 ---
 
