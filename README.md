@@ -3,7 +3,7 @@
 # 🚀 Claude Plugin Ecosystem Hub
 ### *The Definitive Index of Claude AI Extensions*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=425%2B+Claude+Plugins%2C+MCPs%2C+Skills;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=900&lines=10000%2B+MCP+Servers%2C+500%2B+Plugins;Discover+%F0%9F%94%8D+Install+%F0%9F%93%A6+Contribute+%F0%9F%A4%9D;The+Definitive+Claude+Ecosystem+Index" alt="Typing SVG" />
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/umitkacar/claude-plugin-ecosystem-hub?style=for-the-badge&logo=github&color=yellow)](https://github.com/umitkacar/claude-plugin-ecosystem-hub/stargazers)
@@ -47,7 +47,7 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### Why This List?
 
-- ✅ **Comprehensive**: 425+ curated resources across all categories
+- ✅ **Comprehensive**: 10,000+ MCP servers, 500+ plugins across all categories
 - 🎯 **Curated**: Only quality, actively maintained projects
 - 📊 **Categorized**: Easy navigation by use case
 - 🔄 **Updated**: Regular maintenance and community contributions
@@ -66,10 +66,23 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 ### 📅 Metadata
 
-- **Last Updated:** November 2024 (Enhanced with 2025 resources)
-- **Total Resources:** 425+ verified entries
+- **Last Updated:** December 2025
+- **Total Resources:** 10,000+ MCP servers, 500+ plugins verified
 - **Verification Method:** Manual review + community reports
 - **Update Frequency:** Monthly with community contributions
+
+### 🆕 What's New (December 2025)
+
+> 🎉 **Major Milestone:** MCP donated to Linux Foundation's [Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) (Dec 9, 2025)
+
+- 🏛️ **Agentic AI Foundation (AAIF)** - Linux Foundation launches new foundation with Anthropic, OpenAI, Block, Google, Microsoft, AWS
+- 📋 **MCP Spec v2025-11-25** - First anniversary release with security enhancements
+- 🌐 **Claude in Chrome (Beta)** - Control your browser directly from Claude Code
+- 🔧 **LSP Tool** - Language Server Protocol for go-to-definition, find references, hover docs
+- 📦 **MCPB Format** - Official MCP Bundle format (.mcpb) replaces legacy .dxt
+- ⚡ **Wildcard MCP Permissions** - New `mcp__server__*` syntax for tool permissions
+- 🧠 **3x Memory Improvement** - Large conversations now use 3x less memory
+- 🎯 **Opus 4.5 for Pro** - Pro users now have access to Opus 4.5
 
 ---
 
@@ -94,7 +107,7 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 | Repository | Maintainer | Description | Count | Last Verified |
 |-----------|-----------|-------------|-------|---------------|
-| [**claude-code-plugins-plus**](https://github.com/jeremylongshore/claude-code-plugins-plus) | [@jeremylongshore](https://github.com/jeremylongshore) | 🎯 2025 Skills schema compliant | 175+ skills & commands | Nov 2024 |
+| [**claude-code-plugins-plus-skills**](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | [@jeremylongshore](https://github.com/jeremylongshore) | 🎯 2025 Skills schema compliant | 175+ skills & commands | Dec 2025 |
 | [**agents**](https://github.com/wshobson/agents) | [@wshobson](https://github.com/wshobson) | 🏭 Enterprise multi-agent orchestration | 85 agents, 47 skills | Nov 2024 |
 | [**commands**](https://github.com/wshobson/commands) | [@wshobson](https://github.com/wshobson) | ⚡ Production-ready slash commands | 44+ commands | Nov 2024 |
 | [**ClaudeKit**](https://github.com/zpaper-com/ClaudeKit) | [@zpaper-com](https://github.com/zpaper-com) | 🎨 Official extensions marketplace | 12 specialists | Nov 2024 |
@@ -201,7 +214,9 @@ mkdir -p .claude/skills
 
 > **Model Context Protocol (MCP)** - Connect Claude to external tools, databases, APIs, and services through standardized server implementations.
 >
-> **2025 Updates:** OpenAI adopted MCP in March 2025 (ChatGPT, Agents SDK, Responses API). Google DeepMind confirmed MCP support for Gemini models in April 2025.
+> **🎉 December 2025:** MCP donated to Linux Foundation's [Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) with Anthropic, OpenAI, Block, Google, Microsoft, AWS as founding members.
+>
+> **2025 Milestones:** OpenAI adopted MCP (March), Google DeepMind Gemini support (April), 10,000+ active MCP servers (November), AAIF Foundation (December).
 
 ### 🎯 Major MCP Directories
 
@@ -223,6 +238,7 @@ mkdir -p .claude/skills
 | Repository | Stars | Focus | Description |
 |-----------|-------|-------|-------------|
 | [**modelcontextprotocol/servers**](https://github.com/modelcontextprotocol/servers) | ⭐ 2.5k+ | 🏢 Official | Official MCP servers repository |
+| [**modelcontextprotocol/mcpb**](https://github.com/modelcontextprotocol/mcpb) | New | 📦 Official | Desktop Extensions MCPB toolchain |
 | [**appcypher/awesome-mcp-servers**](https://github.com/appcypher/awesome-mcp-servers) | ⭐ 800+ | 🎯 Production | Production-ready servers |
 | [**wong2/awesome-mcp-servers**](https://github.com/wong2/awesome-mcp-servers) | ⭐ 650+ | 📋 Curated | Comprehensive list |
 | [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) | ⭐ 350+ | 📚 Collection | Server collection |
@@ -259,7 +275,9 @@ mkdir -p .claude/skills
 ### 📖 MCP Resources
 
 - 🏢 [**Official MCP Documentation**](https://modelcontextprotocol.io/)
-- 📝 [**MCP Specification 2025-06-18**](https://modelcontextprotocol.io/specification/2025-06-18) - Latest spec update
+- 📝 [**MCP Specification 2025-11-25**](https://modelcontextprotocol.io/specification/2025-11-25) - First anniversary release
+- 🎉 [**One Year of MCP Blog**](http://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/) - Anniversary celebration
+- 🏛️ [**MCP joins AAIF**](http://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/) - Linux Foundation announcement
 - 🔄 [**MCP Spec Updates (June 2025)**](https://auth0.com/blog/mcp-specs-update-all-about-auth/) - Authentication updates
 - 📝 [**MCP Examples**](https://modelcontextprotocol.io/examples)
 - 🔐 [**MCP Security Research**](https://arxiv.org/pdf/2503.23278) - Academic paper on MCP security
@@ -279,7 +297,7 @@ mkdir -p .claude/skills
 | **Liblab MCP SDK** | MCP server SDK generator | [liblab.com](https://liblab.com/docs/mcp/howto-connect-mcp-to-claude) |
 | **Weavely MCP Guide** | Free & paid setup | [weavely.ai](https://www.weavely.ai/blog/claude-mcp) |
 
-**Note:** As of September 2025, Desktop Extensions use the `.mcpb` (MCP Bundle) format. Legacy `.dxt` files continue to work but `.mcpb` is the official standard.
+**Note:** As of December 2025, Desktop Extensions use the `.mcpb` (MCP Bundle) format. Legacy `.dxt` files continue to work but `.mcpb` is the official standard. See [modelcontextprotocol/mcpb](https://github.com/modelcontextprotocol/mcpb) for the official toolchain.
 
 ### 🖥️ MCP Client Applications
 
@@ -348,7 +366,7 @@ Skills span multiple domains:
 | Repository | Commands | Focus | Notes |
 |-----------|----------|-------|-------|
 | [**wshobson/commands**](https://github.com/wshobson/commands) | 44+ | Production-ready commands | Standalone command collection |
-| [**claude-code-plugins-plus**](https://github.com/jeremylongshore/claude-code-plugins-plus) | 175 skills | Skills & commands bundle | See Plugin Marketplaces section |
+| [**claude-code-plugins-plus-skills**](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 175 skills | Skills & commands bundle | See Plugin Marketplaces section |
 | [**ClaudeKit**](https://github.com/zpaper-com/ClaudeKit) | 12 | Specialist commands | Integrated with ClaudeKit suite |
 
 ### 📖 Command Resources
@@ -385,7 +403,7 @@ Commands are simple Markdown files in `.claude/commands/`:
 |-----------|--------|-------------|------------|
 | **Seth Hobson's Agents** | 85+ | 🏆 Most comprehensive multi-agent system | [wshobson/agents](https://github.com/wshobson/agents) |
 | **ClaudeKit Specialists** | 12 | 🎯 AI specialists for development | [zpaper-com/ClaudeKit](https://github.com/zpaper-com/ClaudeKit) |
-| **Jeremy Longshore's Collection** | 175 skills as agents | ⚡ 2025 schema-compliant skills | [claude-code-plugins-plus](https://github.com/jeremylongshore/claude-code-plugins-plus) |
+| **Jeremy Longshore's Collection** | 175 skills as agents | ⚡ 2025 schema-compliant skills | [claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
 
 ### 🎯 Agent Use Cases
 
@@ -593,15 +611,18 @@ npx claude-code-templates@latest --health-check
 
 ### 📢 Official Announcements
 
+- 🏛️ [**Agentic AI Foundation & MCP Donation**](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation) - December 2025
 - 🚀 [**Claude Code Plugins Launch**](https://www.anthropic.com/news/claude-code-plugins)
 - 🎓 [**Agent Skills Introduction**](https://www.anthropic.com/news/skills)
 - 🏢 [**Claude for Enterprise**](https://www.anthropic.com/news/claude-for-enterprise)
 - 🔌 [**Model Context Protocol**](https://www.anthropic.com/news/model-context-protocol)
+- 🎓 [**Equipping Agents with Skills**](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Engineering blog
 
 ### 🛠️ Official Tools
 
 - 🐙 [**anthropics/skills**](https://github.com/anthropics/skills) - Official skills repository
 - 🐙 [**modelcontextprotocol/servers**](https://github.com/modelcontextprotocol/servers) - Official MCP servers
+- 📦 [**modelcontextprotocol/mcpb**](https://github.com/modelcontextprotocol/mcpb) - MCPB Desktop Extensions toolchain
 - ⚙️ [**Claude Code Action**](https://github.com/marketplace/actions/claude-code-action-official) - GitHub Action
 
 ---
@@ -616,6 +637,7 @@ npx claude-code-templates@latest --health-check
 |------|----------|-------------|------|
 | **claude-code-templates** | CLI | Configuration & monitoring | [GitHub](https://github.com/davila7/claude-code-templates) / [NPM](https://www.npmjs.com/package/claude-code-templates) |
 | **@anthropic-ai/claude-code** | CLI | Official Claude Code package | [NPM](https://www.npmjs.com/package/@anthropic-ai/claude-code) |
+| **@anthropic-ai/mcpb** | CLI | MCPB Desktop Extensions toolchain | [NPM](https://www.npmjs.com/package/@anthropic-ai/mcpb) |
 | **@schuettc/claude-code-setup** | CLI | .claude directory setup tool | [NPM](https://www.npmjs.com/package/@schuettc/claude-code-setup) |
 | **@pimzino/claude-code-spec-workflow** | NPM | Spec workflow automation | [NPM](https://www.npmjs.com/package/@pimzino/claude-code-spec-workflow) |
 | **claude-code-exporter** | NPM | Export Claude Code configs | [NPM](https://www.npmjs.com/package/claude-code-exporter) |

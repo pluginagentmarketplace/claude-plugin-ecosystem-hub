@@ -15,6 +15,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.0.0] - 2025-12-28
+
+### 🎉 Major Ecosystem Updates (December 2025)
+
+#### Added
+- 🏛️ **Agentic AI Foundation (AAIF)** - Linux Foundation's new foundation with MCP donation
+  - Anthropic, OpenAI, Block, Google, Microsoft, AWS as founding members
+  - MCP, goose (Block), and AGENTS.md (OpenAI) as founding projects
+- 📋 **MCP Specification v2025-11-25** - First anniversary release with security enhancements
+- 🌐 **Claude in Chrome (Beta)** - Browser control directly from Claude Code
+- 🔧 **LSP Tool** - Language Server Protocol integration for code intelligence
+- 📦 **MCPB Format** - Official MCP Bundle format (.mcpb) replacing legacy .dxt
+- ⚡ **Wildcard MCP Permissions** - New `mcp__server__*` syntax
+- 🧠 **3x Memory Improvement** - Optimized memory usage for large conversations
+- 🎯 **Opus 4.5 for Pro** - Pro users now have access to Opus 4.5
+- 📦 **modelcontextprotocol/mcpb** - Official MCPB toolchain repository
+- 🎓 **New Resources**:
+  - One Year of MCP anniversary blog
+  - MCP joins AAIF announcement
+  - Equipping Agents with Skills engineering blog
+  - @anthropic-ai/mcpb NPM package
+
+#### Changed
+- 📊 **Updated ecosystem stats**: 10,000+ MCP servers, 500+ plugins
+- 🔗 **Fixed repository rename**: `claude-code-plugins-plus` → `claude-code-plugins-plus-skills`
+- 📅 **Updated all verification dates** to December 2025
+- 📝 **Enhanced MCP section** with AAIF milestone information
+- 🆕 **Added "What's New" section** in metadata
+
+#### Fixed
+- 🔗 Fixed jeremylongshore repository link (renamed to claude-code-plugins-plus-skills)
+- 📝 Updated MCPB format documentation
+
+### 📈 Statistics
+- **MCP Servers**: 10,000+ active public servers
+- **Plugins**: 500+ verified
+- **Links Verified**: December 2025
+- **AAIF Members**: 8 platinum (AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, OpenAI)
+
+---
+
 ## [2.0.0] - 2024-11-16
 
 ### ✨ Major Improvements
@@ -101,12 +142,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 3.0.0 | 2025-12-28 | Major ecosystem update - AAIF, MCP v2025-11-25, MCPB format |
 | 2.0.0 | 2024-11-16 | Major overhaul with standardization and new features |
 | 1.0.0 | 2024-11-01 | Initial comprehensive directory release |
 
 ---
 
 ## Monthly Updates
+
+### December 2025
+- 🏛️ Added Agentic AI Foundation (AAIF) coverage
+- 📋 Updated to MCP Specification v2025-11-25
+- 📦 Added MCPB format documentation and toolchain
+- 🔗 Fixed repository rename (claude-code-plugins-plus-skills)
+- 📊 Updated ecosystem stats (10,000+ MCP servers)
+- 🆕 Added "What's New" section
+- ✅ Verified all major links
 
 ### November 2024
 - ✅ Complete restructuring and standardization
