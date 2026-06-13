@@ -727,6 +727,7 @@ npx claude-code-templates@latest --health-check
 | **claude-code-exporter** | NPM | Export Claude Code configs | [NPM](https://www.npmjs.com/package/claude-code-exporter) |
 | **Docker MCP Toolkit** | Integration | Docker-based MCP setup | [Blog](https://www.docker.com/blog/connect-mcp-servers-to-claude-desktop-with-mcp-toolkit/) |
 | **Claude Code Action** | CI/CD | GitHub Actions integration | [Marketplace](https://github.com/marketplace/actions/claude-code-action-official) |
+| **Hermes Tweet** | Plugin | Hermes Agent X/Twitter automation plugin | [GitHub](https://github.com/Xquik-dev/hermes-tweet) |
 
 ### 📊 Analytics & Monitoring
 
