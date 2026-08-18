@@ -428,6 +428,7 @@ mkdir -p .claude/skills
 | [**adrianpuiu/claude-skills-marketplace**](https://github.com/adrianpuiu/claude-skills-marketplace) | 🏗️ Architecture | Project planning & blueprints |
 | [**mhattingpete/claude-skills-marketplace**](https://github.com/mhattingpete/claude-skills-marketplace) | 🔄 Git workflows | Git automation & code review |
 | [**rawveg/skillsforge-marketplace**](https://github.com/rawveg/skillsforge-marketplace) | 🔨 SkillsForge | Curated skills collection |
+| [**rohunvora/x-research-skill**](https://github.com/rohunvora/x-research-skill) | 🔍 X/Twitter research | Agentic X search, thread following, watchlists |
 
 ### 🎨 Skills Categories
 
