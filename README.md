@@ -353,7 +353,7 @@ mkdir -p .claude/skills
 | **Communication** | Gmail, Outlook, Teams, Discord |
 | **Project Management** | Linear, Jira, Trello, Asana |
 | **Media** | YouTube, Spotify, Plex |
-| **Finance** | Stripe, PayPal |
+| **Finance** | Stripe, PayPal, [FarmDash](https://www.farmdash.one/agents) |
 | **DevOps** | Kubernetes, Terraform, Jenkins |
 
 ### 📖 MCP Resources
