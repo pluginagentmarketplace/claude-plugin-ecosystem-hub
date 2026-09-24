@@ -107,6 +107,7 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 
 | Repository | Maintainer | Description | Count | Last Verified |
 |-----------|-----------|-------------|-------|---------------|
+| [**API.market integrations**](https://github.com/Noveum/api-market-agent-integrations) | [@Noveum](https://github.com/Noveum) | 🔌 Proprietary hosted API discovery and execution via [OAuth MCP](https://api.market/api/mcp/gateway) | 1 plugin | Sep 2026 |
 | [**claude-code-plugins-plus-skills**](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | [@jeremylongshore](https://github.com/jeremylongshore) | 🎯 2025 Skills schema compliant | 175+ skills & commands | Dec 2025 |
 | [**agents**](https://github.com/wshobson/agents) | [@wshobson](https://github.com/wshobson) | 🏭 Enterprise multi-agent orchestration | 85 agents, 47 skills | Nov 2024 |
 | [**commands**](https://github.com/wshobson/commands) | [@wshobson](https://github.com/wshobson) | ⚡ Production-ready slash commands | 44+ commands | Nov 2024 |
