@@ -115,6 +115,7 @@ Claude Code has revolutionized AI-assisted development through its extensible ar
 | [**Dev-GOM Marketplace**](https://github.com/Dev-GOM/claude-code-marketplace) | [@Dev-GOM](https://github.com/Dev-GOM) | 🔧 Productivity & workflow automation | Multiple | Nov 2024 |
 | [**ananddtyagi/marketplace**](https://github.com/ananddtyagi/claude-code-marketplace) | [@ananddtyagi](https://github.com/ananddtyagi) | 👥 Community-driven plugins | Community | Nov 2024 |
 | [**every-marketplace**](https://github.com/EveryInc/every-marketplace) | [@EveryInc](https://github.com/EveryInc) | 🏢 Official Every-Env extensions | Enterprise | Nov 2024 |
+| [**multi-llm**](https://github.com/beastlabai/multi-llm-plugin) | [@beastlabai](https://github.com/beastlabai) | 🔄 Parallel plan reviews, implementation, and multi-model code reviews | 1 plugin | Oct 30, 2026 |
 | [**netresearch/marketplace**](https://github.com/netresearch/claude-code-marketplace) | [@netresearch](https://github.com/netresearch) | 🎯 TYPO3-focused development | Specialized | Nov 2024 |
 | [**getty104/marketplace**](https://github.com/getty104/claude-code-marketplace) | [@getty104](https://github.com/getty104) | 🧪 TDD automation workflows | TDD-focused | Nov 2024 |
 | [**skillsforge-marketplace**](https://github.com/rawveg/skillsforge-marketplace) | [@rawveg](https://github.com/rawveg) | 🔨 Skills-focused collection | Skills | Nov 2024 |
