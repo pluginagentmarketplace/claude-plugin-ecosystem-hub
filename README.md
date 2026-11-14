@@ -316,6 +316,7 @@ mkdir -p .claude/skills
 | [**Desktop Extensions**](https://www.desktopextensions.com/) | 📦 One-click MCP install | Curated | .dxt/.mcpb bundles | Nov 2024 |
 | [**Cursor Directory MCP**](https://cursor.directory/mcp) | 🖱️ Cursor & Claude integration | Multiple | Cursor-focused | Nov 2024 |
 | [**Claube.ai**](https://www.claube.ai/) | 🤖 Claude MCP servers | Curated | Claude-optimized | Nov 2024 |
+| [**HOL Plugins**](https://hol.org/plugins) | 🔍 Directory of AI plugins, skills and MCP servers | Growing | Trust scores, multi-runtime discovery | Nov 2026 |
 
 ### 📚 GitHub Awesome Lists
 
